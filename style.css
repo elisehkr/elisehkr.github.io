@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+figure {
+    margin: 0;
+}
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -400,10 +404,6 @@ article {
     position: relative;
     max-width: 1000px;
     margin: 0 auto;
-}
-
-.overlayborder {
-    border-radius: 10px;
 }
 
 .articlehero img { /* Justerar omslagsbild */
