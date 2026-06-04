@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <!-- Talar om hur webbläsaren ska visa webbsidan på olika skärmar -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon för webbplatsen -->
+        <link rel="icon" type="image/image/png" href="images/madebyme/mentryfavicon.png">
+        <!-- Kopplar CSS-fil till HTML-fil -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Typsnitt för H-element och P-element -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <title>Mentry</title>
+    </head>
+    <!-- Allt synligt innehåll på webbsidan -->
+    <body>
+        <!-- Header med navigationsmeny -->
+        <header>
+            <div class="navmenu">
+                <a href="index.html">
+                    <img src="images/madebyme/mentryicon.png" alt="Mentrys logotyp">
+                </a>
+                <!-- Hjälp av AI att skapa en utfällbar hamburgarmeny genom användning av en checkruta -->
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="hamburger">
+                    <img src="images/madebyme/hamburgermenu.svg" alt="Hamburgermeny">
+                </label>
+                <!-- Slut av AIs hjälp -->
+                <nav class="navlinks">
+                    <ul>
+                        <li><a href="studier.html">Studier</a></li>
+                        <li><a href="struktur.html">Struktur</a></li>
+                        <li><a href="gemenskap.html">Gemenskap</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- Innehåll unikt för index.html -->
+        <main>
+            <!-- Hero-sektion -->
+            <section class="indexhero">
+                <!-- Olika bilder beroende på skärmens storlek -->
+                <picture class="indexheroimage">
+                    <source media="(min-width: 1024px)" srcset="images/downloaded/hero-desktop.webp">
+                    <source media="(min-width: 768px)" srcset="images/downloaded/hero-tablet.webp">
+                    <img src="images/downloaded/hero-mobile.webp" alt="Skrivbord med kontorsmaterial och laptop stående ovanpå">
+                </picture>
+                <div class="indexherotext">
+                    <div class="container">
+                        <div class="indexherocontent">
+                            <h1>Ett digitalt stöd för studenter</h1>
+                            <p>En guide för dig som är nybliven distansstudent på universitet eller högskola. För en mjukare övergång till studentlivet.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- En blå overlay på omslagsbilden i hero -->
+                <div class="overlay"></div>
+            </section>
+            <p class="container">AI-genererad bild skapad med ChatGPT (OpenAI)</p>
+            <!-- Sektion: Introduktion till webbplatsen -->
+            <section class="textimagesection">
+                    <div class="textimagecontent">
+                        <div class="textimagetext">
+                            <h2>Ett digitalt stöd för dig som studerar på distans</h2>
+                            <p>Att studera på distans innebär en stor omställning där den direkta kontakten med lärare och kurskamrater försvinner, vilket kan göra studierna mer självständiga och ibland ensamma. Mentry finns här för dig när du behöver lite extra guidning i början av ditt studentliv på distans.</p>
+                        </div>
+                        <figure>
+                            <picture class="sectionimage">
+                                <source media="(min-width: 1024px)" srcset="images/downloaded/yellowshirt-desktop.webp">
+                                <img src="images/downloaded/yellowshirt-phone-tablet.webp" alt="En person med gul tröja sittandes vid laptopen utomhus">
+                            </picture>
+                            <figcaption>
+                                <a href="https://www.magnific.com/free-photo/woman-browses-mobile-phone-works-distantly-laptop-computer-sits-lotus-pose-outside-against-modern-building-uses-modern-technologies-wears-spectacles-sweater_19973351.htm#fromView=search&page=5&position=32&uuid=9511713b-8e18-41d7-88c8-f75e3e92ccc7&query=student+with+laptop">Bild tagen av wayhomestudio från Magnific</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+            </section>
+            <!-- Sektion: Cards-->
+            <section class="backgroundsection">
+                <div class="container">
+                    <h2>Vad vill du ha hjälp med?</h2>
+                    <div class="cardcontainer">
+                        <!-- Första kortet-->
+                        <article class="card">
+                            <img src="images/downloaded/lightbluebook.svg" alt="Illustration av en öppen bok">
+                            <div class="cardtext">
+                                <h3>Studier</h3>
+                                <p>Lär dig om hur studier fungerar på distans och vad som är bra att veta om distansstudier.</p>
+                                <a class="button" href="studier.html">Läs mer</a>
+                            </div>
+                        </article>
+                        <!-- Andra kortet-->
+                        <article class="card">
+                            <img src="images/downloaded/lightbluetodo.svg" alt="Illustration av en checklista">
+                            <div class="cardtext">
+                                <h3>Struktur</h3>
+                                <p>Hur du kan skapa struktur i vardagen genom planering, rutiner och tydliga studietider.</p>
+                                <a class="button" href="struktur.html">Läs mer</a>
+                            </div>
+                        </article>
+                        <!-- Tredje kortet-->
+                        <article class="card">
+                            <img src="images/downloaded/lightbluehighfive.svg" alt="Illustration av två personer som gör high five">
+                            <div class="cardtext">
+                                <h3>Gemenskap</h3>
+                                <p>Läs om hur du kan utveckla gemenskap med kurskamrater i en digital studiemiljö.</p>
+                                <a class="button" href="gemenskap.html">Läs mer</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footerinformation">
+                    <!-- Första kolumnen -->
+                    <div class="footerabout">
+                        <img src="images/madebyme/mentrylogotype.png" alt="Mentrys logotyp tillsammans med namnet Mentry" class="footerlogo">
+                        <p>Vi skapades 2026 för att göra övergången till distansstudier lite enklare. Att börja studera på universitet eller högskola på distans kan kännas ovant, och det är därför vi finns här för dig.</p>
+                    </div>
+                    <!-- Andra kolumnen kolumnen -->
+                    <section class="footercolumn">
+                        <h3>Kontakt</h3>
+                        <ul>
+                            <li>kontakt@mentry.se</li>
+                            <li>08-123 45 67</li>
+                            <li>Fågelviksvägen 29B, 141 38 Stockholm</li>
+                        </ul>
+                    </section>
+                    <!-- Tredje kolumnen -->
+                    <section class="footercolumn">
+                        <h3>Om Mentry</h3>
+                        <ul>
+                            <li class="linkfooter"><a href="omoss.html">Om oss</a></li>
+                            <li>Facebook: @mentry</li>
+                            <li>Instagram: @mentry</li>
+                        </ul>
+                    </section>
+                </div>
+                <!-- Utomstående textstycke -->
+                <div class="footerattribute">
+                    <a href="https://www.flaticon.com/free-icons/bookmark" title="bookmark icons">Bookmark icons skapad av Good Ware - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/to-do-list" title="to do list icons">To do list icons skapad av Freepik - Flaticon</a>
+                    <a href="https://www.flaticon.com/free-icons/friends" title="friends icons">Friends icons skapad av Freepik - Flaticon</a>
+                </div>
+                <p class="copyright">© 2026 Mentry. All rights reserved.</p> 
+            </div>
+        </footer>
+    </body>
+</html>

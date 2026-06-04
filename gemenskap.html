@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="utf-8">
+        <!-- Talar om hur webbläsaren ska visa webbsidan på olika skärmar -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Favicon för webbplatsen -->
+        <link rel="icon" type="image/image/png" href="images/madebyme/mentryfavicon.png">
+        <!-- Kopplar CSS-fil till HTML-fil -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Typsnitt för H-element och P-element -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <title>Mentry</title>
+    </head>
+    <body>
+        <header>
+            <div class="navmenu">
+                <a href="index.html">
+                    <img src="images/madebyme/mentryicon.png" alt="Mentrys logotyp">
+                </a>
+                <!-- Hjälp av AI att skapa en utfällbar hamburgarmeny genom användning av en checkruta -->
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="hamburger">
+                    <img src="images/madebyme/hamburgermenu.svg" alt="Hamburgermeny">
+                </label>
+                <!-- Slut av AIs hjälp -->
+                <nav class="navlinks">
+                    <ul>
+                        <li><a href="studier.html">Studier</a></li>
+                        <li><a href="struktur.html">Struktur</a></li>
+                        <li><a href="gemenskap.html">Gemenskap</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- Innehåll unikt för gemenskap.html -->
+        <main>
+            <!-- Artikel om gemenskap -->
+            <article>
+                <div class="herosidebackground">
+                    <h1 class="herotitle">Gemenskap</h1>
+                    <div class="heroside">
+                        <p class="smalltitle">Det kan kännas svårt att hitta en gemenskap som distansstudent, därför har vi samlat några tips om hur man kan lyckas.</p>
+                        <!-- En wrapper runt bilden för att ha overlay -->
+                         <figure>
+                            <div class="overlaywrapper">
+                                <picture class="articlehero">
+                                    <source media="(min-width: 768px)" srcset="images/downloaded/community-tablet-desktop.webp">
+                                    <img src="images/downloaded/community-phone.webp" alt="Två personer som äter pizza framför en laptop">
+                                </picture>
+                                    <!-- En blå overlay på omslagsbilden i hero -->
+                                <div class="overlay"></div>
+                            </div>
+                            <figcaption class="container">
+                            <a href="https://www.magnific.com/free-photo/relaxing-women-with-pizza-laptop_1891848.htm#fromView=search&page=1&position=8&uuid=869fe5d2-11fe-40ca-bf08-e50b66f3c7eb&query=online+friend+no+face">Bild tagen av freepik</a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <div class="background">
+                    <!-- Sektion: Komma i kontakt med andra studenter -->
+                    <section class="content bluefirstcontent">
+                            <h2>Så kan du komma i kontakt med andra studenter</h2>
+                            <p>Det finns flera enkla sätt att lära känna och prata med dina kurskamrater, även online:</p>
+                            <ul class="list">
+                                <li>Delta aktivt i diskussionsforum i kursplattformen</li>
+                                <li>Skriv i chatten under föreläsningar och seminarier</li>
+                                <li>Skapa eller gå med i studiegrupper online (t.ex. Discord, Messenger)</li>
+                                <li>Våga skicka ett meddelande till någon i kursen</li>
+                            </ul>
+                            <p class="underlist">Ofta är många andra i samma situation och uppskattar kontakt mer än man tror.</p>
+                            <div class="group">
+                                <h3>Tips!</h3>
+                                <p>Grupparbeten ger ett utmärkt tillfälle för att bilda kontakt med andra kurskamrater. Ni har redan en anledning till att prata, bygg vidare på det!</p>
+                            </div>
+                    </section>
+                </div>
+                <!-- Sektion: Våga ta första steget -->
+                <section class="content">
+                    <h2>Våga ta första steget</h2>
+                    <p>Det kan kännas ovant att ta kontakt digitalt, men små steg räcker långt. Ett enkelt “hej, ska vi plugga tillsammans inför tentan?” kan vara början på en studiegrupp eller en kontakt som gör studierna mycket lättare.</p>
+                    <p>Du behöver inte vara social hela tiden, men att ha någon att fråga, diskutera med eller bara känna igen kan göra stor skillnad.</p>   
+                </section>
+                <!-- Sektion: Gemenskap ser olika ut för alla -->
+                <section class="content">
+                    <h2>Gemenskap ser olika ut för alla</h2>
+                    <p>Gemenskap behöver inte alltid vara stora grupper eller daglig kontakt. För vissa räcker det att:</p>
+                    <ul class="list">
+                        <li>Ha en person att ställa frågor till</li>
+                        <li>Ibland delta i gruppdiskussioner</li>
+                        <li>Känna igen några namn i kursen</li>
+                    </ul>
+                </section>
+                <!-- Sektion: Många andra i samma sits -->
+                <section class="content">
+                    <h2>Det finns många andra i samma sits som just dig</h2>
+                    <p>Även om distansstudier innebär mycket eget ansvar är du en del av en kurs tillsammans med andra. Många känner samma osäkerhet i början, och de flesta vill också hitta kontakt.</p>
+                    <p>Gemenskap byggs inte automatiskt, men den går alltid att skapa, steg för steg.</p>  
+                </section>
+                <!-- Visuell avdelare -->
+                <div class="content">
+                    <div class="divider"></div>
+                </div>
+                <!-- Sektion: Sammanfattning -->
+                <section class="content">
+                    <h2>Sammanfattning</h2>
+                    <p>Distansstudier kan ibland kännas ensamma, men du behöver inte studera helt på egen hand. Genom att delta i diskussioner, studiegrupper och digitala möten kan du skapa kontakt med andra studenter och bygga gemenskap steg för steg.</p>  
+                    <p>Det behöver inte handla om stora sociala grupper. Ibland räcker det med några personer att prata med, ställa frågor till eller plugga tillsammans med inför en uppgift eller tenta.</p>  
+                    <p>Många andra studenter känner samma osäkerhet i början, och ofta uppskattas kontakt mer än man tror. Att våga ta små initiativ kan göra studierna både lättare och roligare.</p>  
+                </section>
+            </article>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="footerinformation">
+                    <!-- Första kolumnen -->
+                    <div class="footerabout">
+                        <img src="images/madebyme/mentrylogotype.png" alt="Mentrys logotyp tillsammans med namnet Mentry" class="footerlogo">
+                        <p>Vi skapades 2026 för att göra övergången till distansstudier lite enklare. Att börja studera på universitet eller högskola på distans kan kännas ovant, och det är därför vi finns här för dig.</p>
+                    </div>
+                    <!-- Andra kolumnen kolumnen -->
+                    <section class="footercolumn">
+                        <h3>Kontakt</h3>
+                        <ul>
+                            <li>kontakt@mentry.se</li>
+                            <li>08-123 45 67</li>
+                            <li>Fågelviksvägen 29B, 141 38 Stockholm</li>
+                        </ul>
+                    </section>
+                    <!-- Tredje kolumnen -->
+                    <section class="footercolumn">
+                        <h3>Om Mentry</h3>
+                        <ul>
+                            <li class="linkfooter"><a href="omoss.html">Om oss</a></li>
+                            <li>Facebook: @mentry</li>
+                            <li>Instagram: @mentry</li>
+                        </ul>
+                    </section>
+                </div>
+                <!-- Utomstående textstycke -->
+                <p class="copyright">© 2026 Mentry. All rights reserved.</p>   
+            </div>
+        </footer>
+    </body>
+</html>
